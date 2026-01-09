@@ -6,62 +6,70 @@ A collection of 42 C++ modules to learn and master 🖥️ object-oriented progr
 
 ## 📂 Modules Structure
 
-### 🟦 cpp00
-- **ex00:** Introduction to C++ and basic syntax. Learn about variables, functions, and simple I/O.
-- **ex01:** Working with classes and objects. Basics of constructors, destructors, and encapsulation.
-- **ex02:** Operator overloading. Learn how to customize behavior for C++ operators.
-- **ex03:** Introduction to inheritance and polymorphism. Basic class hierarchies.
+### 🟦 CPP_00
 
-### 🟦 cpp01
-- **ex00:** Deeper dive into classes and object-oriented design principles.
-- **ex01:** Copy constructors and assignment operators. Master the Rule of Three.
-- **ex02:** Templates and generic programming. Create functions and classes that work with any type.
-- **ex03:** Exception handling and error management in C++.
+* **ex00:** Introduction to C++ and basic syntax. Learn about variables, functions, and simple I/O.
+* **ex01:** Working with classes and objects. Basics of constructors, destructors, and encapsulation.
+* **ex02:** Operator overloading and static members. Recreate missing files using provided headers and logs.
 
-### 🟦 cpp02
-- **ex00:** Understanding dynamic memory allocation and pointers.
-- **ex01:** Implementing custom data structures (linked lists, stacks, queues).
-- **ex02:** Introduction to operator overloading for complex data structures.
-- **ex03:** Memory management and avoiding leaks.
+### 🟦 CPP_01
 
-### 🟦 cpp03
-- **ex00:** Fixed-point arithmetic. Learn how numbers can be represented internally.
-- **ex01:** Advanced operator overloading and ad-hoc polymorphism.
-- **ex02:** Orthodox Canonical Form (OCF) and proper class design.
-- **ex03:** Implementing and testing robust C++ classes.
+* **ex00:** Memory allocation and basic class design. Implement a Zombie class with stack vs heap usage.
+* **ex01:** Create a horde of Zombies. Allocate multiple objects and manage memory correctly.
+* **ex02:** Understanding pointers and references. Manipulate a string via pointer and reference.
+* **ex03:** Class interactions. Implement Weapon, HumanA, and HumanB with different ownership semantics.
+* **ex04:** File manipulation with strings. Replace occurrences of a substring in a file.
+* **ex05:** Member function pointers. Implement Harl with different complaint levels.
+* **ex06:** Filtered output using switch statements. Display Harl’s messages based on severity levels.
 
-### 🟦 cpp04
-- **ex00:** File I/O in C++. Read/write files and manage streams.
-- **ex01:** Working with STL containers: vectors, maps, sets.
-- **ex02:** Iterators and algorithms. Learn how to navigate and manipulate containers.
-- **ex03:** Exception safety and resource management.
+### 🟦 CPP_02
 
-### 🟦 cpp05
-- **ex00:** Advanced inheritance techniques. Multiple inheritance and virtual inheritance.
-- **ex01:** Polymorphism in depth: virtual functions, pure virtual classes, and abstract classes.
-- **ex02:** Interfaces and design patterns in C++.
-- **ex03:** Building reusable and maintainable class hierarchies.
+* **ex00:** Fixed-point numbers. Implement constructors, copy, and accessors.
+* **ex01:** Enhanced Fixed class. Add int/float constructors, conversions, and stream output.
+* **ex02:** Operator overloading. Arithmetic, comparison, increment/decrement, min/max.
+* **ex03:** Point class and BSP. Check if a point is inside a triangle.
 
-### 🟦 cpp06
-- **ex00:** More STL practice: algorithms, functors, and lambdas.
-- **ex01:** Function objects and higher-order programming in C++.
-- **ex02:** Introduction to iterators adapters and custom iterators.
-- **ex03:** Performance considerations when using STL containers.
+### 🟦 CPP_03
 
-### 🟦 cpp07
-- **ex00:** Templates advanced: variadic templates, template specialization.
-- **ex01:** Custom container classes using templates.
-- **ex02:** Exception handling with templates.
-- **ex03:** Generic programming challenges and exercises.
+* **ex00:** Learn basic class design and object management with simple attributes.
+* **ex01:** Explore inheritance by extending a class and modifying behavior.
+* **ex02:** Deepen inheritance understanding with further specialization.
+* **ex03:** Practice multiple inheritance and handling complex class hierarchies.
 
-### 🟦 cpp08
-- **ex00:** Understanding C++ casts and type conversions.
-- **ex01:** Advanced polymorphism and dynamic type checking.
-- **ex02:** Smart pointers: `unique_ptr`, `shared_ptr`, `weak_ptr`.
-- **ex03:** Memory management best practices with modern C++.
+### 🟦 CPP_04
 
-### 🟦 cpp09
-- **ex00:** Advanced algorithms and data structures.
-- **ex01:** Recursive algorithms and backtracking.
-- **ex02:** Implementing and traversing trees and graphs.
-- **ex03:** Sorting algorithms and their complexities.
+* **ex00:** Learn basic polymorphism with base and derived classes.
+* **ex01:** Implement dynamic memory in classes and test deep copies.
+* **ex02:** Work with abstract classes to prevent direct instantiation.
+* **ex03:** Apply interfaces and manage objects through abstract types.
+
+### 🟦 CPP_05
+
+* **ex00:** Learn class design with constraints, exceptions, and basic error handling.
+* **ex01:** Implement interaction between classes and enforce rules through exceptions.
+* **ex02:** Work with abstract base classes and specialized derived forms that perform actions.
+* **ex03:** Automate object creation and manage polymorphic objects.
+
+### 🟦 CPP_06
+
+* **ex00:** Work with type conversions and casts.
+* **ex01:** Learn serialization by converting pointers to integer representations and back.
+* **ex02:** Identify real object types at runtime using polymorphism without `typeid`.
+
+### 🟦 CPP_07
+
+* **ex00:** Learn function templates; implement generic `swap`, `min`, and `max` functions.
+* **ex01:** Apply function templates to arrays; implement a generic `iter` function.
+* **ex02:** Practice class templates; implement a generic `Array` class with dynamic allocation.
+
+### 🟦 CPP_08
+
+* **ex00:** Learn function templates with containers; implement `easyfind` to search for integers in any container.
+* **ex01:** Practice custom container design; implement a `Span` class with range operations.
+* **ex02:** Extend STL containers; implement an iterable stack supporting all stack operations plus iterators.
+
+### 🟦 CPP_09
+
+* **ex00:** Use file I/O and associative containers to compute bitcoin values by date from a CSV database.
+* **ex01:** Apply stack-based algorithms; implement an RPN (Reverse Polish Notation) calculator using containers.
+* **ex02:** Practice advanced sorting algorithms using Ford-Johnson sort on sequences and measure performance.
