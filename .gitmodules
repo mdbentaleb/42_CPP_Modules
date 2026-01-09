@@ -19,3 +19,6 @@
 [submodule "CPP-06"]
 	path = CPP-06
 	url = https://github.com/mdbentaleb/42_CPP_Module_06.git
+[submodule "CPP-07"]
+	path = CPP-07
+	url = https://github.com/mdbentaleb/42_CPP_Module_07.git
