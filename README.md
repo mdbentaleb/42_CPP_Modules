@@ -1,5 +1,7 @@
 # 📚 42 C++ Modules
 
+<img width="2637" height="1727" alt="Image" src="https://github.com/user-attachments/assets/cb65f290-80b2-445a-89ec-aef7334ea594" />
+
 A collection of 42 C++ modules to learn and master 🖥️ object-oriented programming, 🗂️ data structures, 🧩 algorithms, and ⚙️ modern C++ concepts step by step.
 
 ---
